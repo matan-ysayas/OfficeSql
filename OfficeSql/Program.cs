@@ -9,6 +9,7 @@ namespace OfficeSql
 {
     internal class Program
     {
+         
 
         public static void DeleteMenagerById(string cs)
         {
@@ -186,7 +187,7 @@ namespace OfficeSql
                 Console.WriteLine(ex.Message);
             }
         }
-        public static void updateEmployee(string cs)
+        public static void updateEmployee(string cs) 
         {
             try
             {
